@@ -20,7 +20,14 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+    firebase: {
+      apiKey: "AIzaSyDTDAPIh-bfl-28K6XhterDJFJGmVBUuDA",
+      authDomain: "jody-home-7496c.firebaseapp.com",
+      databaseURL: "https://jody-home-7496c.firebaseio.com",
+      storageBucket: "jody-home-7496c.appspot.com",
+      messagingSenderId: "108411813874"
+  }
   };
 
   if (environment === 'development') {
