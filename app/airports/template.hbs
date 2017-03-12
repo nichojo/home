@@ -1,0 +1,13 @@
+<div class="col-md-6 col-md-offset-3">  
+
+  <section>
+    <h2>Airport List</h2>
+    {{#each model as |airport|}}
+    <p>
+      <span><strong>{{airport.ident}}</strong> - <em>{{airport.name}}</em></span>
+      <button class="btn btn-danger" {{action "deleteAirport" airport}}>Delete</button>
+    </p>
+    {{/each}}
+  </section>
+</div>  
+
